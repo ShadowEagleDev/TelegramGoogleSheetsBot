@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "QASupportBot": {
+      "commandName": "Project"
+    },
+    "Профиль 1": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

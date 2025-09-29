@@ -1,0 +1,33 @@
+# Dependencies
+/bin/
+/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Secrets
+secrets.json
+appsettings.json
+
+# Google Credentials File
+credentials.json
+QA_Bot_APIAccessKey.json
+
+# Visual Studio cache
+/.vs/
