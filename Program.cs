@@ -140,16 +140,16 @@ public class GoogleSheetsHelper
 
         var values = new List<object?>
         {
-            SanitizeForSheets(newCaseId),
-            SanitizeForSheets(timestamp),
-            null,
-            null,
-            SanitizeForSheets(operatorName),
-            SanitizeForSheets(customerInfo),
-            SanitizeForSheets(problemText),
-            SanitizeForSheets(status),
-            false,
-            false
+            SanitizeForSheets(newCaseId),    // A
+            SanitizeForSheets(timestamp),    // B
+            null,                            // C
+            null,                            // D
+            SanitizeForSheets(operatorName), // E
+            SanitizeForSheets(customerInfo), // F
+            SanitizeForSheets(problemText),  // G
+            SanitizeForSheets(status),       // H
+            false,                           // I
+            false                            // J
         };
 
         await _retryPolicy.ExecuteAsync(async () =>
